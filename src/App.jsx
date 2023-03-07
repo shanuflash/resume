@@ -1,4 +1,5 @@
 import "./App.css";
+import photo from "./assets/212220220044.jpg";
 
 function App() {
   return (
@@ -6,7 +7,8 @@ function App() {
       <div className="left box">
         <div className="container">
           <img
-            src="src/assets/212220220044.jpg"
+            // src="src/assets/212220220044.jpg"
+            src={photo}
             alt="shanu-image"
             className="photo"
           />
