@@ -2,3 +2,39 @@
   height: auto;
   width: 100%;
 }
+
+.App {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100vh;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+.left {
+  width: 35vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.up {
+  height: 25%;
+}
+
+.right {
+  width: 65vw;
+}
