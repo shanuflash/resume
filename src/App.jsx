@@ -187,19 +187,77 @@ function App() {
           </div>
           <div className="topic">
             <div className="title">Awards</div>
-            <div className="content">WIP</div>
+            <div className="content">
+              <div className="edu1">
+                <div className="edu-title">
+                  Website development/design award
+                </div>
+                <div className="edu-desc">
+                  Drestein 2022, Saveetha Engineering College
+                </div>
+              </div>
+            </div>
           </div>
           <div className="topic">
             <div className="title">Certification</div>
-            <div className="content">WIP</div>
+            <div className="content">
+              <li className="cert-item">Hands-on with React JS </li>
+              <li className="cert-item">Essentials of Cloud Computing</li>
+              <li className="cert-item">Cyber Security and Ethical Hacking</li>
+              <li className="cert-item">Data Science with R Programming</li>
+            </div>
           </div>
           <div className="topic">
-            <div className="title">Language</div>
-            <div className="content">WIP</div>
+            <div className="title">Languages</div>
+            <div className="content">
+              <div className="skill">
+                <div className="skill-content">
+                  <div className="skill-title">English</div>
+                  <div className="skill-progress">
+                    <div className="progress-track">
+                      <div
+                        className="progress-thumb"
+                        style={{ width: "80%" }}
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill-content">
+                  <div className="skill-title">தமிழ்</div>
+                  <div className="skill-progress">
+                    <div className="progress-track">
+                      <div
+                        className="progress-thumb"
+                        style={{ width: "100%" }}
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill-content">
+                  <div className="skill-title">हिंदी</div>
+                  <div className="skill-progress">
+                    <div className="progress-track">
+                      <div
+                        className="progress-thumb"
+                        style={{ width: "50%" }}
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="topic">
-            <div className="title">Hobbie</div>
-            <div className="content">WIP</div>
+            <div className="title">Hobbies</div>
+            <div className="content">
+              <li className="hobby-item">Graphic Design</li>
+              <li className="hobby-item">UI Design</li>
+              <li className="hobby-item">Gaming</li>
+            </div>
           </div>
         </div>
       </div>
