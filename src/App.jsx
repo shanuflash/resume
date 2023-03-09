@@ -22,7 +22,7 @@ function App() {
         <div className="container">
           <img src={photo} alt="shanu-image" className="photo" />
           <div className="intro">
-            Passionate information technology student, Seeking to use my
+            Passionate Information Technology student, Seeking to use my
             existing skills and my eagerness to learn in to design innovative,
             cost-effective software solutions. Prolific, designer and full stack
             web developer with a passion for design and performance.
