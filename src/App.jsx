@@ -7,12 +7,9 @@ import {
   FaCss3Alt,
   FaGitAlt,
   FaFigma,
-  FaFire,
   FaJava,
 } from "react-icons/fa";
 import { SiSupabase } from "react-icons/si";
-import { TbBrandVsco, TbBrandVscode } from "react-icons/tb";
-import { BiDownArrowAlt } from "react-icons/bi";
 
 function App() {
   return (
