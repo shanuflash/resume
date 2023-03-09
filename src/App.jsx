@@ -7,9 +7,11 @@ import {
   FaCss3Alt,
   FaGitAlt,
   FaFigma,
+  FaFire,
+  FaJava,
 } from "react-icons/fa";
 import { SiSupabase } from "react-icons/si";
-import { TbBrandVscode } from "react-icons/tb";
+import { TbBrandVsco, TbBrandVscode } from "react-icons/tb";
 import { BiDownArrowAlt } from "react-icons/bi";
 
 function App() {
@@ -183,7 +185,72 @@ function App() {
           </div>
           <div className="topic">
             <div className="title">Projects</div>
-            <div className="content">WIP</div>
+            <div className="content">
+              <div className="project-item">
+                <div className="project-name">
+                  Drestein
+                  <div className="project-tool">
+                    <FaReact />
+                    <SiSupabase />
+                    <FaJs />
+                    <FaHtml5 />
+                    <FaCss3Alt />
+                    <TbBrandVscode />
+                  </div>
+                </div>
+                <div className="project-desc">
+                  Landing/Registration website for a college event at Saveetha
+                  Engineering College. Made using React, JavaScript, HTML, CSS
+                  with a group of 3 people.
+                </div>
+              </div>
+              <div className="project-item">
+                <div className="project-name">
+                  Student Profiler
+                  <div className="project-tool">
+                    <FaReact />
+                    <SiSupabase />
+                    <FaJs />
+                    <FaHtml5 />
+                    <FaCss3Alt />
+                    <TbBrandVscode />
+                  </div>
+                </div>
+                <div className="project-desc">
+                  Dynamic student profile website for 3rd and 4th year students
+                  studying at Saveetha Engineering College for Placement related
+                  activities.
+                </div>
+              </div>
+              <div className="project-item">
+                <div className="project-name">
+                  FreeRam
+                  <div className="project-tool">
+                    <FaJava />
+                    <TbBrandVscode />
+                  </div>
+                </div>
+                <div className="project-desc">
+                  Automated ram cleaning utility using with a simple UI. Made
+                  using JAVA with the help of Swing Framework for User Interface
+                  and Windows API for processing.
+                </div>
+              </div>
+              <div className="project-item">
+                <div className="project-name">
+                  Website using Kansei Engineering
+                  <div className="project-tool">
+                    <FaReact />
+                    <FaJs />
+                    <FaHtml5 />
+                    <FaCss3Alt />
+                  </div>
+                </div>
+                <div className="project-desc">
+                  Effective web development and design using Kansei Engineering
+                </div>
+              </div>
+            </div>
           </div>
           <div className="topic">
             <div className="title">Awards</div>

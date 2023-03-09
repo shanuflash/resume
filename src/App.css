@@ -94,6 +94,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  width: 77%;
 }
 
 .title {
@@ -150,6 +151,33 @@
 
 .tool-content {
   justify-content: center;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.project-name {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.project-tool {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-align: justify;
 }
 
 .up {
