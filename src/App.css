@@ -1,5 +1,6 @@
 .App {
   /* height: auto; */
+  color: whitesmoke;
   height: 100vh;
   width: 100vw;
   background-image: url("https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
@@ -69,7 +70,8 @@
   justify-content: center;
   height: 100%;
   border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.438);
+  /* background: rgba(255, 255, 255, 0.438); */
+  background: rgba(0, 0, 0, 0.438);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -87,17 +89,17 @@
   display: flex;
   align-items: flex-start;
 }
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 
 .title {
   display: flex;
   font-size: 1.3rem;
   font-weight: 600;
   width: 23%;
-}
-
-.content {
-  /* align-self: flex-end; */
-  /* width: 70%; */
 }
 
 .edu-title {
@@ -107,12 +109,6 @@
 .edu-desc {
   font-weight: 300;
   font-size: 0.9rem;
-}
-
-.skill-box {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
 }
 
 .skill {
@@ -174,6 +170,6 @@
   height: 12rem;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  object-position: 0 -1rem;
+  object-position: 0 -0.7rem;
   border-radius: 50%;
 }

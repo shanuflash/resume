@@ -27,7 +27,7 @@ function App() {
           <div className="up-desc">Full Stack Web Developer</div>
         </div>
         <div className="container main">
-          <div className="topic education">
+          <div className="topic">
             <div className="title">Education:</div>
             <div className="content">
               <div className="edu1">
@@ -44,12 +44,12 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="topic education">
+          <div className="topic">
             <div className="title">Skills:</div>
-            <div className="skill-box content">
+            <div className="content">
               <div className="skill">
                 <div className="skill-icon">
-                  <FaReact className="icon" />
+                  <FaReact style={{ color: "#61DBFB" }} className="icon" />
                 </div>
                 <div className="skill-content">
                   <div className="skill-title">React</div>
@@ -65,7 +65,7 @@ function App() {
               </div>
               <div className="skill">
                 <div className="skill-icon">
-                  <FaJs className="icon" />
+                  <FaJs style={{ color: "#F0DB4F" }} className="icon" />
                 </div>
                 <div className="skill-content">
                   <div className="skill-title">JavaScript</div>
@@ -81,7 +81,7 @@ function App() {
               </div>
               <div className="skill">
                 <div className="skill-icon">
-                  <FaHtml5 className="icon" />
+                  <FaHtml5 style={{ color: "#e34c26" }} className="icon" />
                 </div>
                 <div className="skill-content">
                   <div className="skill-title">HTML</div>
@@ -97,7 +97,7 @@ function App() {
               </div>
               <div className="skill">
                 <div className="skill-icon">
-                  <FaCss3Alt className="icon" />
+                  <FaCss3Alt style={{ color: "#2965f1 " }} className="icon" />
                 </div>
                 <div className="skill-content">
                   <div className="skill-title">CSS</div>
@@ -113,27 +113,27 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="topic education">
+          <div className="topic">
             <div className="title">Tools:</div>
             <div className="content">Hello</div>
           </div>
-          <div className="topic education">
+          <div className="topic">
             <div className="title">Projects:</div>
             <div className="content">Hello</div>
           </div>
-          <div className="topic education">
+          <div className="topic">
             <div className="title">Awards:</div>
             <div className="content">Hello</div>
           </div>
-          <div className="topic education">
+          <div className="topic">
             <div className="title">Certification:</div>
             <div className="content">Hello</div>
           </div>
-          <div className="topic education">
+          <div className="topic">
             <div className="title">Language:</div>
             <div className="content">Hello</div>
           </div>
-          <div className="topic education">
+          <div className="topic">
             <div className="title">Hobbier:</div>
             <div className="content">Hello</div>
           </div>
