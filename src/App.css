@@ -14,7 +14,7 @@
   padding: 0 4px;
   border-top: 2rem solid transparent;
   border-bottom: 2rem solid transparent;
-  background-color: black;
+  background-color: white;
   background-clip: padding-box;
 }
 
@@ -187,6 +187,7 @@
   box-sizing: border-box;
   height: 30%;
   gap: 0.5rem;
+  overflow: hidden;
 }
 
 .up-title {
