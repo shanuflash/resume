@@ -1,6 +1,16 @@
 import "./App.css";
 import photo from "./assets/212220220044.jpg";
-import { FaReact, FaJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import {
+  FaReact,
+  FaJs,
+  FaHtml5,
+  FaCss3Alt,
+  FaGitAlt,
+  FaFigma,
+} from "react-icons/fa";
+import { SiSupabase } from "react-icons/si";
+import { TbBrandVscode } from "react-icons/tb";
+import { BiDownArrowAlt } from "react-icons/bi";
 
 function App() {
   return (
@@ -15,6 +25,17 @@ function App() {
             cost-effective software solutions. Prolific, designer and full stack
             web developer with a passion for design and performance.
           </div>
+          <div className="social">
+            <a className="social-item" href="https://github.com/shanuflash">
+              Github
+            </a>
+            <a
+              className="social-item"
+              href="https://www.linkedin.com/in/shanuflash"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
       </div>
       <div className="right box">
@@ -28,7 +49,7 @@ function App() {
         </div>
         <div className="container main">
           <div className="topic">
-            <div className="title">Education:</div>
+            <div className="title">Education</div>
             <div className="content">
               <div className="edu1">
                 <div className="edu-title">
@@ -45,7 +66,7 @@ function App() {
             </div>
           </div>
           <div className="topic">
-            <div className="title">Skills:</div>
+            <div className="title">Skills</div>
             <div className="content">
               <div className="skill">
                 <div className="skill-icon">
@@ -114,28 +135,71 @@ function App() {
             </div>
           </div>
           <div className="topic">
-            <div className="title">Tools:</div>
-            <div className="content">Hello</div>
+            <div className="title">Tools</div>
+            <div className="content">
+              <div className="tool-row">
+                <div className="skill">
+                  <div className="skill-icon">
+                    <TbBrandVscode
+                      style={{ color: "#0078d7 " }}
+                      className="icon"
+                    />
+                  </div>
+                  <div className="skill-content tool-content">
+                    <div className="skill-title">VS Code</div>
+                  </div>
+                </div>
+                <div className="skill">
+                  <div className="skill-icon">
+                    <FaGitAlt style={{ color: "#f34f29 " }} className="icon" />
+                  </div>
+                  <div className="skill-content tool-content">
+                    <div className="skill-title">Git</div>
+                  </div>
+                </div>
+              </div>
+              <div className="tool-row">
+                <div className="skill">
+                  <div className="skill-icon">
+                    <SiSupabase
+                      style={{ color: "#2eaf76 " }}
+                      className="icon"
+                    />
+                  </div>
+                  <div className="skill-content tool-content">
+                    <div className="skill-title">Supabase</div>
+                  </div>
+                </div>
+                <div className="skill">
+                  <div className="skill-icon">
+                    <FaFigma style={{ color: "#A259FF  " }} className="icon" />
+                  </div>
+                  <div className="skill-content tool-content">
+                    <div className="skill-title">Figma</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="topic">
-            <div className="title">Projects:</div>
-            <div className="content">Hello</div>
+            <div className="title">Projects</div>
+            <div className="content">WIP</div>
           </div>
           <div className="topic">
-            <div className="title">Awards:</div>
-            <div className="content">Hello</div>
+            <div className="title">Awards</div>
+            <div className="content">WIP</div>
           </div>
           <div className="topic">
-            <div className="title">Certification:</div>
-            <div className="content">Hello</div>
+            <div className="title">Certification</div>
+            <div className="content">WIP</div>
           </div>
           <div className="topic">
-            <div className="title">Language:</div>
-            <div className="content">Hello</div>
+            <div className="title">Language</div>
+            <div className="content">WIP</div>
           </div>
           <div className="topic">
-            <div className="title">Hobbier:</div>
-            <div className="content">Hello</div>
+            <div className="title">Hobbie</div>
+            <div className="content">WIP</div>
           </div>
         </div>
       </div>
