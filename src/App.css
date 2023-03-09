@@ -1,6 +1,31 @@
 .App {
-  height: auto;
-  width: 100%;
+  /* height: auto; */
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  padding: 0 4px;
+  border-top: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
+  background-color: black;
+  background-clip: padding-box;
+}
+
+.blur {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.664);
+  backdrop-filter: blur(1rem);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App {
@@ -32,20 +57,93 @@
 }
 .intro {
   text-align: justify;
-  font-size: 1rem;
+  font-size: 0.86rem;
   font-weight: 600;
 }
 
 .container {
+  overflow: overlay;
+  overflow-x: hidden;
   display: flex;
+  z-index: 2;
   justify-content: center;
   height: 100%;
-  /* background-color: rgba(255, 255, 255, 0.7); */
-  border-radius: 2rem;
-  filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.25));
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(50px);
-  background: linear-gradient(135deg, rgba(237, 248, 245, 0.7) 0%, rgba(215, 224, 221, 0.7) 100%);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.438);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main {
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content: flex-start;
+}
+
+.topic {
+  display: flex;
+  align-items: flex-start;
+}
+
+.title {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 600;
+  width: 23%;
+}
+
+.content {
+  /* align-self: flex-end; */
+  /* width: 70%; */
+}
+
+.edu-title {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.edu-desc {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skill {
+  display: flex;
+  gap: 1rem;
+}
+
+.skill-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.progress-track {
+  box-sizing: content-box;
+  height: 0.6rem;
+  width: 20vw;
+  border-radius: 1rem;
+  background-color: black;
+}
+
+.progress-thumb {
+  display: block;
+  position: relative;
+  height: 0.6rem;
+  border-radius: 1rem;
+  background-color: whitesmoke;
+}
+
+.icon {
+  font-size: 2rem;
 }
 
 .up {
@@ -73,7 +171,7 @@
 }
 
 .photo {
-  height: 18rem;
+  height: 12rem;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: 0 -1rem;

@@ -1,17 +1,14 @@
 import "./App.css";
 import photo from "./assets/212220220044.jpg";
+import { FaReact, FaJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 
 function App() {
   return (
     <div className="App">
+      <div className="blur"></div>
       <div className="left box">
         <div className="container">
-          <img
-            // src="src/assets/212220220044.jpg"
-            src={photo}
-            alt="shanu-image"
-            className="photo"
-          />
+          <img src={photo} alt="shanu-image" className="photo" />
           <div className="intro">
             Passionate information technology student, Seeking to use my
             existing skills and my eagerness to learn in to design innovative,
@@ -27,9 +24,120 @@ function App() {
             <span style={{ fontWeight: "200" }}>|</span>
             <span style={{ fontWeight: "500" }}>B. Tech. IT</span>
           </div>
-          <div className="up-desc">Full Stack Developer</div>
+          <div className="up-desc">Full Stack Web Developer</div>
         </div>
-        <div className="container"></div>
+        <div className="container main">
+          <div className="topic education">
+            <div className="title">Education:</div>
+            <div className="content">
+              <div className="edu1">
+                <div className="edu-title">
+                  High School, Vani Vidyalaya, Chennai
+                </div>
+                <div className="edu-desc">2008 – 2020 | X: 84%, XII: 82%</div>
+              </div>
+              <div className="edu2">
+                <div className="edu-title">
+                  B. Tech. IT, Saveetha Engineering College, Chennai
+                </div>
+                <div className="edu-desc">2020 – Present | CGPA: 8.2</div>
+              </div>
+            </div>
+          </div>
+          <div className="topic education">
+            <div className="title">Skills:</div>
+            <div className="skill-box content">
+              <div className="skill">
+                <div className="skill-icon">
+                  <FaReact className="icon" />
+                </div>
+                <div className="skill-content">
+                  <div className="skill-title">React</div>
+                  <div className="skill-progress">
+                    <div className="progress-track">
+                      <div
+                        className="progress-thumb"
+                        style={{ width: "70%" }}
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill-icon">
+                  <FaJs className="icon" />
+                </div>
+                <div className="skill-content">
+                  <div className="skill-title">JavaScript</div>
+                  <div className="skill-progress">
+                    <div className="progress-track">
+                      <div
+                        className="progress-thumb"
+                        style={{ width: "50%" }}
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill-icon">
+                  <FaHtml5 className="icon" />
+                </div>
+                <div className="skill-content">
+                  <div className="skill-title">HTML</div>
+                  <div className="skill-progress">
+                    <div className="progress-track">
+                      <div
+                        className="progress-thumb"
+                        style={{ width: "80%" }}
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill-icon">
+                  <FaCss3Alt className="icon" />
+                </div>
+                <div className="skill-content">
+                  <div className="skill-title">CSS</div>
+                  <div className="skill-progress">
+                    <div className="progress-track">
+                      <div
+                        className="progress-thumb"
+                        style={{ width: "60%" }}
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="topic education">
+            <div className="title">Tools:</div>
+            <div className="content">Hello</div>
+          </div>
+          <div className="topic education">
+            <div className="title">Projects:</div>
+            <div className="content">Hello</div>
+          </div>
+          <div className="topic education">
+            <div className="title">Awards:</div>
+            <div className="content">Hello</div>
+          </div>
+          <div className="topic education">
+            <div className="title">Certification:</div>
+            <div className="content">Hello</div>
+          </div>
+          <div className="topic education">
+            <div className="title">Language:</div>
+            <div className="content">Hello</div>
+          </div>
+          <div className="topic education">
+            <div className="title">Hobbier:</div>
+            <div className="content">Hello</div>
+          </div>
+        </div>
       </div>
     </div>
   );
