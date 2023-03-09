@@ -9,6 +9,7 @@ import {
   FaFigma,
   FaJava,
 } from "react-icons/fa";
+import { TbBrandVscode } from "react-icons/tb";
 import { SiSupabase } from "react-icons/si";
 
 function App() {
